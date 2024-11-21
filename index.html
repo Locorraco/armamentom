@@ -143,10 +143,8 @@
             <a href="#" onclick="showSection('Mejora de Armaduras')">Mejora de Armaduras</a>
             <a href="#" onclick="showSection('Armas Melee')">Armas Melee</a>
             <a href="#" onclick="showSection('Armas De Fuergo Genéricas')">Armas De Fuego Genéricas</a>
-            <a href="#" onclick="showSection('Armas De Fuergo Premium')">Armas De Fuego Premium</a>
-
-            
-            <a href="#" onclick="showSection('mejoras')">Mejoras</a>
+            <a href="#" onclick="showSection('Armas De Fuergo Premium')">Armas De Fuego Premium</a> 
+            <a href="#" onclick="showSection('Granadas')">Granadas</a>
         </nav>
     </header>
 
@@ -284,13 +282,156 @@
             <a href="#" class="back-button" onclick="goBack()">Regresar</a>
         </section>
 
-        <section id="mejoras" class="section" style="display: none;">
-            <h2>Mejoras</h2>
+        <section id="Armas De Fuergo Genéricas" class="section" style="display: none;">
+            <h2>Armas De Fuergo Genéricas</h2>
             <div class="item">
-                <img src="shield.jpg">
-                <h3>Escudo Holo</h3>
+                <img src="11m.png">
+                <h3>Handgun, 11mm</h3>
+                <p>Precio: 900 créditos</p>
+                <p>Daño: 2d8 P</p>
+                <p>Rango: 14/42m</p>
+                <p>Propiedades: Close, reload (10)</p>
+            </div>
+            <div class="item">
+                <img src="12m.png">
+                <h3>Handgun, 12mm</h3>
+                <p>Precio: 2,000 créditos</p>
+                <p>Daño: 3d6 P</p>
+                <p>Rango: 15/45m</p>
+                <p>Propiedades: Close, reload (6)</p>
+            </div>
+            <div class="item">
+                <img src="hunt556.png">
+                <h3>Hunting Rifle, 5.56mm</h3>
+                <p>Precio: 1,000 créditos</p>
+                <p>Daño: 2d8 P</p>
+                <p>Rango: 100/300m</p>
+                <p>Propiedades: Reload (6), two-handed</p>
+            </div>
+            <div class="item">
+                <img src="hunt762.png">
+                <h3>Hunting Rifle, 7.62mm</h3>
+                <p>Precio: 1,200 créditos</p>
+                <p>Daño: 2d10 P</p>
+                <p>Rango: 120/360m</p>
+                <p>Propiedades: Reload (5), two-handed</p>
+            </div>
+            <div class="item">
+                <img src="12gauge.png">
+                <h3>Shotgun, 12 gauge</h3>
+                <p>Precio: 600 créditos</p>
+                <p>Daño: 2d8 P</p>
+                <p>Rango: 40/120m</p>
+                <p>Propiedades: Reload (8), shotgun, two-handed</p>
+            </div>
+            <div class="item">
+                <img src="ar556.png">
+                <h3>Assault Rifle, 5.56mm</h3>
+                <h4>Martial</h4>
+                <p>Precio: 2,000 créditos</p>
+                <p>Daño: 2d8 P</p>
+                <p>Rango: 150/450m</p>
+                <p>Propiedades: Auto, reload (40), two-handed</p>
+            </div>
+            <div class="item">
+                <img src="sr556.png">
+                <h3>Sniper Rifle, 5.56mm</h3>
+                <h4>Martial</h4>
+                <p>Precio: 1,500 créditos</p>
+                <p>Daño: 2d8 P</p>
+                <p>Rango: 250/750m</p>
+                <p>Propiedades: Two-handed, reload (5)</p>
+            </div>
+            <div class="item">
+                <img src="smg46.png">
+                <h3>SMG, 4.6mm</h3>
+                <h4>Martial</h4>
+                <p>Precio: 1,200 créditos</p>
+                <p>Daño: 1d10 P</p>
+                <p>Rango: 20/60m</p>
+                <p>Propiedades: Auto, close, light, reload (50)</p>
+            </div>
+            <a href="#" class="back-button" onclick="goBack()">Regresar</a>
+        </section>
+
+        <section id="Armas De Fuergo Premium" class="section" style="display: none;">
+            <h2>Armas De Fuergo Premium</h2>
+            <div class="item">
+                <img src="ballista.png">
+                <h3>Ballista 12 gauge</h3>
+                <p>Precio: 18,000 créditos</p>
+                <p>Daño: 2d12 P</p>
+                <p>Rango: 50/150m</p>
+                <p>Propiedades: Reload (8), shotgun, two-handed</p>
+            </div>
+            <div class="item">
+                <img src="gipython.png">
+                <h3>GI Python 12mm</h3>
+                <p>Precio: 30,000 créditos</p>
+                <p>Daño: 2d12 P</p>
+                <p>Rango: 15/45m</p>
+                <p>Propiedades: Close, reload (8)</p>
+            </div>
+            <div class="item">
+                <img src="mk2556.png">
+                <h3>Cypher MK II 5.56mm</h3>
+                <h4>Martial</h4>
+                <p>Precio: 25,000 créditos</p>
+                <p>Daño: 2d12 P</p>
+                <p>Rango: 250/750m</p>
+                <p>Propiedades: Two-handed, reload (7), silenced</p>
+            </div>
+            <a href="#" class="back-button" onclick="goBack()">Regresar</a>
+        </section>
+
+        <section id="Granadas" class="section" style="display: none;">
+            <h2>Granadas</h2>
+            <div class="item">
+                <img src="smoke.png">
+                <h3>Smoke</h3>
+                <p>Precio: 100 créditos</p>
+                <p>Alcance: 6 metros de radio</p>
+                <p>Efectos: Heavily obscured area, smoke lasts 6 rounds</p>
+            </div>
+            <div class="item">
+                <img src="flash.png">
+                <h3>Flashbang</h3>
                 <p>Precio: 300 créditos</p>
-                <p>Defensa: +40</p>
+                <p>Alcance: 3 metros de radio</p>
+                <p>Tirada: DC 15 Con. </p>
+                <p>Efectos: Blind, deaf and stun on fail</p>
+            </div>
+            <div class="item">
+                <img src="frag.png">
+                <h3>Fragmentation</h3>
+                <p>Precio: 400 créditos</p>
+                <p>Alcance: 6 metros de radio</p>
+                <p>Tirada: DC 15 Dex. </p>
+                <p>Efectos: 5d6 P on fail, half on successful</p>
+            </div>
+            <div class="item">
+                <img src="concussion.png">
+                <h3>Concussion</h3>
+                <p>Precio: 400 créditos</p>
+                <p>Alcance: 6 metros de radio</p>
+                <p>Tirada: DC 15 Dex. </p>
+                <p>Efectos: 5d6 P on fail, half on successful</p>
+            </div>
+            <div class="item">
+                <img src="incendiary.png">
+                <h3>Incendiary</h3>
+                <p>Precio: 600 créditos</p>
+                <p>Alcance: 6 metros de radio</p>
+                <p>Tirada: DC 15 Dex. </p>
+                <p>Efectos: 5d6 P on fail, half on successful, fire lasts 3 rounds</p>
+            </div>
+            <div class="item">
+                <img src="emp.png">
+                <h3>EMP</h3>
+                <p>Precio: 2,000 créditos</p>
+                <p>Alcance: 3 metros de radio</p>
+                <p>Tirada: DC 15</p>
+                <p>Efectos: Electronics break down and need to be repaired</p>
             </div>
             <a href="#" class="back-button" onclick="goBack()">Regresar</a>
         </section>
